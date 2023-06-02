@@ -141,7 +141,7 @@ async def cb_handler(client, query: CallbackQuery):
                ]]
             )
         )
-           elif data == "bot":
+    elif data == "bot":
         await query.message.edit_text(
             text=mr.BOT_TXT,
             reply_markup=InlineKeyboardMarkup( [[
